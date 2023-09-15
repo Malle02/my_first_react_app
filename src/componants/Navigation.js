@@ -1,10 +1,9 @@
 import React, { useState, useEffect }  from 'react';
-import Home from '../image/plugin/home-131979013044125652.png'
-import Veille from '../image/plugin/check+o+icon-1320167992083999221.png'
-import BTS from '../image/plugin/student+study+icon-1320196277883460903.png'
-import contact from '../image/plugin/contact+mail+48px-131985190031819287.png'
-import { NavLink } from 'react-router-dom';
 
+import "../App";
+import "../pages/Home";
+import "../pages/Bts_sio";
+import "../pages/Contact";
 import './navigation.css';
 
 

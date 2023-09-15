@@ -11,7 +11,8 @@ import './App.css';
 
 
 
-import App from './pages/Home';
+
+import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 
@@ -21,6 +22,7 @@ root.render(
     <App />
   </React.StrictMode>
 );
+
 
 
 reportWebVitals();
