@@ -1,0 +1,89 @@
+
+
+.imageP {
+  width: 85%;
+  margin-left:8%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 8%;
+  }
+  
+  .PimgContainer {
+    width: 45%;
+    margin: 15px;
+    text-align: center;
+
+   
+  }
+  
+  .Pimg {
+    width: 80%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    
+    
+  }
+  
+  .PimgContainer p {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .my_cvContainer {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .my_cv {
+    width: 42%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+
+@media screen and (max-width:767px)
+  {
+  
+    .PimgContainer, .my_cvContainer{
+        display: inline-block;
+        width: 80%; 
+        box-sizing: border-box; 
+        margin: 15px;
+        margin-left: 5%; 
+        text-align: center; 
+        margin-bottom: 40px; 
+    }
+
+   
+    .my_cv{
+        width: 95%;
+        margin-left: 15%;
+    } 
+
+
+}
+
+
+
+
+
+
+.Pimg , .my_cv {
+  max-width: 100%; 
+  transition: transform 0.4s ease-in-out; 
+}
+
+
+.PimgContainer, .my_cvContainer {
+  text-align: center;
+    margin: 20px;
+  overflow: hidden; 
+}
+
+.Pimg:hover, .my_cv:hover {
+  transform: scale(1.2); 
+}

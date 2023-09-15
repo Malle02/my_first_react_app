@@ -1,0 +1,38 @@
+.arrow {
+    cursor: pointer;
+   
+  }
+
+  .block {
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    transition: max-height 0.3s ease;
+    overflow: hidden;
+  }
+  
+  .block.expanded {
+    max-height: 500px; 
+   }
+  
+  .block-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .arrow {
+    font-size: 1.5rem;
+    margin-left: 10px; 
+    transition: transform 0.3s ease;
+  }
+  
+  .block.expanded .arrow {
+    transform: rotate(180deg);
+  }
+  
+  .block-content {
+    padding-top: 10px;
+  }
+  

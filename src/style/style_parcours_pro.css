@@ -1,0 +1,54 @@
+
+#parcours {
+    background-color: #F4F4F4;
+    padding: 60px 0;
+    text-align: center;
+    margin-bottom:5%;
+    width: 85%;
+    margin-left: 7%;
+    
+}
+
+.experience {
+    background-color: rgb(191, 203, 208);
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+    transform: translateY(0);
+    transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275),
+                box-shadow 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+                
+}
+
+.experience:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.experience h3 {
+    color: #240fc2;
+    font-size: 24px;
+    margin-bottom: 10px;
+    opacity: 0.85;
+    transform: translateY(0);
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+    
+}
+
+.experience:hover h3 {
+    opacity: 1;
+    transform: translateY(-5px);
+}
+
+.experience p {
+    color: #000;
+    font-size: 18px;
+   
+}
+
+.date {
+    font-weight: bold;
+    color: white;
+   
+}

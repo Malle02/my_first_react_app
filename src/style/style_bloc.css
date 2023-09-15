@@ -1,0 +1,141 @@
+
+
+.cool-block {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 20px;
+    padding: 10px;
+    background-color: rgb(191, 203, 208);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+    text-align: justify;
+  }
+
+ 
+  
+  .cool-block.expanded {
+    background-color: rgba(239, 227, 227, 0.08);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .block-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .cool-title {
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .cool-arrow {
+    font-size: 1.5rem;
+    color: #333;
+    transform: rotate(0deg);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .cool-block.expanded .cool-arrow {
+    transform: rotate(90deg);
+  }
+  
+  .block-content {
+    padding: 10px 0;
+  }
+  
+  .cool-content {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+
+
+.cool-title {
+  font-size: 1.5rem;
+  color: black;
+  
+  font-weight: bold; 
+  text-transform: capitalize; 
+  margin-bottom: 10px; 
+}
+
+.cool-arrow {
+  font-size: 1.5rem;
+  color: black;
+  transform: rotate(0deg);
+  transition: transform 0.3s ease-in-out;
+}
+
+.cool-block.expanded .cool-arrow {
+  transform: rotate(90deg);
+}
+
+.cool-content {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.4; 
+  text-align: justify;
+  margin-top: 10px; 
+}
+
+
+
+
+.cool-content {
+  font-size: 1rem;
+  color: #333; 
+  line-height: 1.6; 
+  text-align: justify; 
+  margin-top: 20px; 
+    padding: 10px; 
+  border: 1px solid #ddd; 
+  border-radius: 5px; 
+  background-color: rgba(239, 227, 227, 0.08); 
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+
+
+
+
+
+
+.cool-block {
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.block-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.cool-title {
+  font-size: 18px;
+  margin: 0;
+}
+
+.cool-arrow {
+  font-size: 24px;
+}
+
+.block-content {
+  margin-top: 10px;
+}
+
+.cool-content {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.block-container{
+width: 85%;
+margin-left: 7%;
+}
