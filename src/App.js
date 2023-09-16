@@ -13,7 +13,7 @@ const App = () => {
     
     // <BrowserRouter>
     <div className="APP">
-    {/* <Navigation/> */}
+    <Navigation/>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/bts_sio" element={<Bts_sio />} />
