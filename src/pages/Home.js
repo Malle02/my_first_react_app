@@ -344,7 +344,8 @@ const Home = () => {
         <a class="report-link" href="lien_vers_votre_rapport_de_stage.pdf" target="_blank">Voir le Tableau de synthèse des réalisations professionnelles  </a>
     </div>
       <div className='etablissement'>
-      <iframe
+        <iframe
+          // ecole nationnale de cpommerce
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2172.138715350368!2d2.3176629113888154!3d48.89710027121785!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66f00a0e11a9d%3A0x82ceb7280013e727!2s%C3%89cole%20Nationale%20de%20Commerce%20-%20E.N.C!5e1!3m2!1sfr!2sfr!4v1694627603748!5m2!1sfr!2sfr"
         width="600"
         height="450"
