@@ -1,8 +1,7 @@
 {
   "files": {
     "main.css": "/my_first_react_app/static/css/main.5c15d6a4.css",
-    "main.js": "/my_first_react_app/static/js/main.b90f0100.js",
-    "static/js/787.93c0ff9f.chunk.js": "/my_first_react_app/static/js/787.93c0ff9f.chunk.js",
+    "main.js": "/my_first_react_app/static/js/main.41d37e58.js",
     "static/media/portfolio_class.png": "/my_first_react_app/static/media/portfolio_class.9544cebeede02bbf9cbd.png",
     "static/media/Zoo.png": "/my_first_react_app/static/media/Zoo.1bb9afd7d075e8e1762a.png",
     "static/media/hiky_store.png": "/my_first_react_app/static/media/hiky_store.6db63e4439a705290f9a.png",
@@ -16,11 +15,10 @@
     "static/media/tp_connection_requette multiple_a_la_bd.png": "/my_first_react_app/static/media/tp_connection_requette multiple_a_la_bd.40708b21f5c70670664e.png",
     "index.html": "/my_first_react_app/index.html",
     "main.5c15d6a4.css.map": "/my_first_react_app/static/css/main.5c15d6a4.css.map",
-    "main.b90f0100.js.map": "/my_first_react_app/static/js/main.b90f0100.js.map",
-    "787.93c0ff9f.chunk.js.map": "/my_first_react_app/static/js/787.93c0ff9f.chunk.js.map"
+    "main.41d37e58.js.map": "/my_first_react_app/static/js/main.41d37e58.js.map"
   },
   "entrypoints": [
     "static/css/main.5c15d6a4.css",
-    "static/js/main.b90f0100.js"
+    "static/js/main.41d37e58.js"
   ]
 }
