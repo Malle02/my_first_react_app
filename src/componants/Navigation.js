@@ -1,4 +1,5 @@
-import React, { useState, useEffect }  from 'react';
+import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 
 import "../App";
 import "../pages/Home";
@@ -38,15 +39,15 @@ const Navigation = () => {
             <ul className='navbar_links'>
            
                 <li className='navbar_item '>
-                    <a href="/" className="navbar_link slideIndown-1">Home</a>
+                    <Link to="/"> <a className="navbar_link slideIndown-1">Home</a></Link>
 
                 </li>
                 <li className='navbar_item '>
-                    <a href="/bts_sio" className="navbar_link slideIndown-2">BTS SIO</a>
+                   <Link  to="/bts_sio"> <a   className="navbar_link slideIndown-2">BTS SIO</a></Link>
 
                 </li>
                 <li className='navbar_item '>
-                    <a href="/#projet" onClick={handleScrollToProjet} className="navbar_link slideIndown-3">Projet</a>
+                   <Link to="/#projet">  <a  onClick={handleScrollToProjet} className="navbar_link slideIndown-3">Projet</a> </Link>
 
                 </li>
                 <li className='navbar_item '>
@@ -62,42 +63,7 @@ const Navigation = () => {
             </button>
           
         </nav>
-        // <div className='navigation'>
-
-
-
-        //     <ul className='menu-container'>
-        //         <NavLink to='/'>
-        //         <li className='menuu menu-item'>
-        //         Home
-        //         </li>
-        //         </NavLink>
-              
-
-        //         <NavLink to='/bts_sio'>
-        //         <li className='menuu menu-item'>
-        //         BTS SIO
-                        
-        //         </li>
-        //         </NavLink>
-
-        //              <NavLink to='' onClick={handleScrollToProjet}>
-        //         <li className='menuu menu-item'>
-        //                 projet                       
-        //          </li>
-        //         </NavLink>
-
-        //         <NavLink to='/contact'>
-        //         <li className='menuu menu-item'>
-        //         Contact
-                        
-        //         </li>
-        //         </NavLink>
-               
-               
-        //     </ul>
-          
-        // </div>
+       
     );
 };
 
