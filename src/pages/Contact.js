@@ -16,7 +16,7 @@ const Contact = () => {
             <div className="card">
   <span className="title">Me contacter ? </span>
   <form name='contact' className="form "  method='POST' data-netlify="true" onSubmit="submit">
-<input type="hidden" name='from-name' value="contact" />
+  <input type="hidden" name="form-name" value="contact" />
             
     <div className="group">
     <input placeholder="‎" id='name' name='name' type="text" required=""/>
@@ -28,7 +28,7 @@ const Contact = () => {
     </div>
 <div className="group">
     <textarea placeholder="‎" id="comment" name="message" rows="5" required=""></textarea>
-    <label for="comment">Votre message</label>
+    <label for="message">Votre message</label>
                     </div>
                     
     <button type="submit">Envoyer</button>
