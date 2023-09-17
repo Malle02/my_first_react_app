@@ -19,8 +19,9 @@ function remercierUtilisateur() {
 const Contact = () => {
     return (
       <div className='contenu'>
+        <Navigation/>
        <div className='naviga'>
-          <Navigation />
+         
           </div>
           
             <div className="card">

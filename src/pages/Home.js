@@ -340,8 +340,8 @@ const Home = () => {
         <div  class="summary" >
             Au terme de ma première année en classe de BTS SIO1 Slam au lycée PARC DE VILGENIS, j'ai eu l'opportunité exceptionnelle d'effectuer un stage au sein de DIZAYGN, une expérience qui a été déterminante pour mon parcours professionnel.
         </div>
-        <a class="report-link" href="lien_vers_votre_rapport_de_stage.pdf" target="_blank">Voir le rapport de stage</a>
-        <a class="report-link" href="lien_vers_votre_rapport_de_stage.pdf" target="_blank">Voir le Tableau de synthèse des réalisations professionnelles  </a>
+        <a class="report-link" href="https://1drv.ms/b/s!ArTH9M77REB3mdcp1IVPcSyf7wFtvQ?e=nOpx1Y" target="_blank">Voir le rapport de stage</a>
+        <a class="report-link" href="#" target="_blank">Voir mon Tableau de synthèse des réalisations professionnelles  </a>
     </div>
       <div className='etablissement'>
         <iframe

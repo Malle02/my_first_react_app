@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
-import "../App";
 import "../pages/Home";
+
 import "../pages/Bts_sio";
 import "../pages/Contact";
 import './navigation.css';
@@ -51,7 +51,7 @@ const Navigation = () => {
 
                 </li>
                 <li className='navbar_item '>
-                    <a href="/contact" className="navbar_link slideIndown-4">Contact</a>
+                <Link  to="/contact " >  <a href="/contact" className="navbar_link slideIndown-4">Contact</a></Link>
 
                 </li>
 
