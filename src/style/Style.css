@@ -330,6 +330,18 @@ h6{
 }
 
 
+@media screen and (min-width:1536px)
+  {
+    .name{
+      
+      font-size: 70px;
+    
+    }
+    .bienvenue{
+      font-size: 37-px;
+     
+    }
+  }
 
 
 
