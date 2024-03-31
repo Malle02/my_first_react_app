@@ -1,0 +1,57 @@
+.certifications-section {
+    padding: 50px 20px; /* Utilisation d'une marge intérieure plus petite sur les côtés pour les petits écrans */
+    background-color: rgb(191, 203, 208);
+    color: #201e30;
+    margin: 80px;
+}
+
+.certifications-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Utilisation de la fonction auto-fit pour rendre les colonnes adaptables */
+    gap: 20px;
+}
+
+.certification-card {
+    padding: 20px; /* Suppression du padding supérieur et inférieur pour les petites cartes */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f4f4f4;
+    color: #201e30;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.certification-card:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    background-color: #e0e0e0;
+}
+
+.certification-card img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    transition: transform 0.3s ease;
+}
+
+.certification-card:hover img {
+    transform: scale(1.1);
+}
+
+.certification-card h5 {
+    margin-bottom: 10px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.certification-card p {
+    font-size: 14px;
+    color: #666;
+    text-align: justify;
+    margin: 5px;
+}
+
+@media screen and (max-width: 767px) {
+    /* Styles pour les écrans de taille maximale de 767px (mobile) */
+    .certifications-grid {
+        grid-template-columns: 1fr; /* Afficher une seule colonne sur les petits écrans */
+    }
+}

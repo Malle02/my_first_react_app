@@ -4,14 +4,14 @@ const Background = () => {
   useEffect(() => {
     const background = document.getElementById('custom-background');
 
-    const particleCount = 30;
+    const particleCount = 70;
     const particleColors = ['#fbfcca', '#d7f3fe', '#ffd0a7'];
     const minSize = 2;
     const maxSize = 20;
-    const xSpeedMin = 100;
-    const xSpeedMax = -100;
-    const ySpeedMin = -10;
-    const ySpeedMax = 100;
+    const xSpeedMin = 140;
+    const xSpeedMax = -140;
+    const ySpeedMin = -20;
+    const ySpeedMax = 120;
     const minOpacity = 0.5;
     const maxOpacity = 1;
 

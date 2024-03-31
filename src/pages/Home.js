@@ -11,6 +11,14 @@ import c_sharp_Updates from '../image/projet/projet_interagire_avec_la_bd_ajout_
 import Td_php from '../image/projet/tp_connection_requette multiple_a_la_bd.png';
 import Zoo from '../image/projet/Zoo.png';
 import MaPhoto from '../image/Photo pro.png';
+import quiz from '../image/projet/quis.png';
+import cinema from '../image/projet/cinemas.png';
+import banque from '../image/projet/banq.png';
+import portfolio from '../image/projet/portfolio.png';
+import cisco from '../image/certif/cisco.png';
+import Rgpd from '../image/certif/cnil.png';
+import anssi from '../image/certif/anssi.png';
+
 
 
 
@@ -165,10 +173,10 @@ const Home = () => {
     <h3 data-aos="zoom-in-right">🚀 Compétences:</h3>
     <ul>
       <li>
-        <strong>Développement Front-End:</strong> Je jongle avec Javascript (React), HTML et CSS pour donner vie aux interfaces.
+        <strong>Développement Front-End:</strong> Je jongle avec Javascript (React, Vue), HTML et CSS pour donner vie aux interfaces.
       </li>
       <li>
-        <strong>Développement Back-End:</strong> Je navigue aisément entre Python, C#, Java, Mysql et PHP pour créer des fonctionnalités puissantes.
+        <strong>Développement Back-End:</strong> Je navigue aisément entre Python, C#, Java, Mysql, Nodejs et PHP (LARAVEL)  pour créer des fonctionnalités puissantes.
       </li>
       <li>
         <strong>CMS Expertise:</strong> J'ai travaillé avec Shopify, WordPress et Elementor Pro pour créer des expériences web exceptionnelles.
@@ -253,6 +261,11 @@ const Home = () => {
         <p><span class="date">Mai 2023 - Juillet 2023</span> <br />
             J'ai effectué un stage en tant que développeur No Code chez Disaygn, où j'ai contribué à la création d'applications sans nécessiter de codage traditionnel.</p>
     </div>
+    <div data-aos="flip-left" class="experience" id='experience'>
+        <h3>Stage Développeur Back-end chez FEDHUBS</h3>
+        <p><span class="date">Janvier 2024 - Mars 2024</span> <br />
+            J'ai effectué un stage en tant que développeur Back-end chez FEDHUBS, où j'ai contribué activement au développement d'API et à la réalisation de tests unitaires pour l'application. Collaboration étroite avec l'équipe front-end pour assurer une intégration fluide des fonctionnalité.</p>
+    </div>
       </section>
       <section  id='projet'>
       
@@ -273,6 +286,30 @@ const Home = () => {
           <img  className='Pimg' src={dvd} alt="Projet de location de DVD en WPF C#" />
         </a> <h6>Language C#</h6>
         <p>Projet de location de DVD réalisé en WPF C#.</p>
+          </div>
+
+          <div className='PimgContainer'>
+        <a href="https://github.com/Malle02/projetBanque.git">
+          <img className='Pimg' src={banque} alt="Travaux pratiques Java sur la POO" />
+            </a>
+            <h6>Language JAVA</h6>
+        <p>Travaux pratiques en JAVA sur la POO, la gestion des comptes bancaires.</p>
+      </div>
+          
+          <div className='PimgContainer'>
+        <a href="https://github.com/Malle02/Mission2_cinema_API.git">
+          <img className='Pimg' src={cinema} alt="Travaux pratiques VUEjs  portant sur les manipulations de requêtes API de cinéma, l'objectif est d'afficher mes tendances dans le monde du cinéma." />
+            </a>
+            <h6>Language VUEjs</h6>
+        <p>Travaux pratiques VUEjs  portant sur les manipulations de requêtes API de cinéma, l'objectif est d'afficher mes tendances dans le monde du cinéma.</p>
+          </div>
+          
+          <div className='PimgContainer'>
+        <a href="https://github.com/Malle02/PPE_QUIZ.git">
+          <img className='Pimg' src={quiz} alt="Travaux pratiques : Application de quiz d'histoire et géo avec React, Node.js et MySQL." />
+            </a>
+            <h6>Languages React, Nodejs, mysql</h6>
+        <p>Travaux pratiques : Application de quiz d'histoire et géo avec React, Node.js et MySQL.</p>
       </div>
 
       <div className='PimgContainer'>
@@ -280,7 +317,8 @@ const Home = () => {
           <img className='Pimg' src={facture_js} alt="Application de facturation en JavaScript" />
         </a> <h6>Language Javascript</h6>
         <p>Application de facturation réalisée en JavaScript capable de générer des factures automatiquement.</p>
-      </div>
+          </div>
+          
 
       <div className='PimgContainer'>
         <a href="https://hikystore.com/">
@@ -312,6 +350,14 @@ const Home = () => {
             </a>
             <h6>Language C#</h6>
         <p>Travaux pratiques en C# sur l'interaction entre la base de données et l'interface pour améliorer l'expérience utilisateur.</p>
+          </div>
+          
+          <div className='PimgContainer'>
+        <a href="https://github.com/Malle02/my_first_react_app.git">
+          <img className='Pimg' src={portfolio} alt="Portfolio" />
+            </a>
+            <h6>Languages REACjs</h6>
+        <p>Portfolio</p>
       </div>
 
       <div className='PimgContainer'>
@@ -321,6 +367,10 @@ const Home = () => {
             <h6>Language PHP</h6>
         <p>Travaux pratiques en PHP sur les manipulations de requêtes SQL avec une base de données.</p>
       </div>
+     
+    
+  
+   
 
     </div>
 
@@ -332,6 +382,61 @@ const Home = () => {
     </div>
       </section>
 
+      <section id="certifications" className="certifications-section">
+  <h4 data-aos="fade-down">Mes Certifications</h4>
+  <hr />
+  <div className="certifications-grid">
+    <div className="certification-card" data-aos="flip-left">
+            <a  href="https://www.credly.com/badges/8478073c-e147-4b18-95b9-39e52fbcd61c/linked_in_profile">
+              <img src={cisco} alt="Nom Certification 1" /></a>
+      <h5>Certification Cisco en Cybersécurité</h5>
+      <p>Introduction à la cybersécurité avec Cisco. Acquisition de connaissances fondamentales sur les cybermenaces, la détection des vulnérabilités et la défense contre les attaques.</p>
+    </div>
+    <div className="certification-card" data-aos="flip-left">
+            <a href="https://drive.google.com/file/d/1BPh_YiC1dPZ99J_RlZrQKx3kvwJ0PVXI/view?usp=drive_link">
+              <img src="https://pix-site.cdn.prismic.io/pix-site/0b7002e1-44f8-4269-b0ce-188645a2a2b1_pix-couleur.svg" alt="Nom Certification 2" />
+            </a>
+      <h5>Certification PIX</h5>
+      <p>Description brève de la certificationMaîtrise de la recherche, de la gestion et du partage d'informations numériques. Compétences en sécurité informatique, en communication et en adaptation de contenus multimédias....</p>
+          </div>
+          
+          <div className="certification-card" data-aos="flip-left">
+            <a href="https://drive.google.com/file/d/1mpqeg6cLvh5P9ltdRIyWwjsDwsmeo3B0/view?usp=drive_link">
+              <img src={anssi} alt="Nom Certification 2" /></a> 
+      <h5>MOOC de l'ANSSI</h5>
+      <p> Formation en ligne permettant d'acquérir des connaissances essentielles en cybersécurité, couvrant les principes fondamentaux ainsi que des sujets avancés</p>
+    </div>
+    <div  className="certification-card" data-aos="flip-left">
+            <a href="https://drive.google.com/file/d/1lNKASPbowXgiN0q3ET4VLihaNCVMlO7D/view?usp=drive_link"> <img style={{ marginTop: "17%" }} src={Rgpd}  alt="Nom Certification 2" /></a> 
+      <h5 >Atelier RGPD CNIL-Module 1</h5>
+      <p >Formation sur les principes de le RGPD et ses notions clés </p>
+    </div>
+    <div className="certification-card" data-aos="flip-left">
+     <a href="https://drive.google.com/file/d/1uA_plOt9ze37cX3tCdVfNig7S1IWOyK7/view?usp=drive_link"> <img src={Rgpd} alt="Nom Certification 2" /></a>
+      <h5>Atelier RGPD CNIL-Module 2</h5>
+      <p>Formation sur les principes de la protection des données </p>
+    </div>
+    <div className="certification-card" data-aos="flip-left">
+    <a href="https://drive.google.com/file/d/1aVua1HTvV-b-7Pvs8H7d8Sv-Kc9uVR9s/view?usp=drive_link">  <img src={Rgpd} alt="Nom Certification 2" /></a>
+      <h5>Atelier RGPD CNIL-Module 3</h5>
+      <p>Formation sur les responsabilités des acteurs</p>
+    </div>
+    <div className="certification-card" data-aos="flip-left">
+    <a href="https://drive.google.com/file/d/15XNUJvAk3uLYxONfIjV49YDxw022cSVj/view?usp=drive_link">  <img src={Rgpd} alt="Nom Certification 2" /></a>
+      <h5>Atelier RGPD CNIL-Module 4</h5>
+      <p>Formation sur le DPO et les outils de la conformité avec le RGPD</p>
+    </div>
+    <div className="certification-card" data-aos="flip-left">
+    <a href="https://drive.google.com/file/d/1ScYYfbM-FXXImTVxVpdANhTuD6WB8Jyt/view?usp=drive_link">  <img src={Rgpd} alt="Nom Certification 2" /></a>
+      <h5>Atelier RGPD CNIL-Module 5</h5>
+      <p>Formation sur les collectivités territoriales</p>
+    </div>
+    
+   
+  </div>
+</section>
+
+
       <div  class="section-title" 
         ><h4  data-aos="flip-left" style={{color:"black"}}>Notes de Synthèse</h4>
      <hr />  </div> 
@@ -340,12 +445,12 @@ const Home = () => {
         <div  class="summary" >
             Au terme de ma première année en classe de BTS SIO1 Slam au lycée PARC DE VILGENIS, j'ai eu l'opportunité exceptionnelle d'effectuer un stage au sein de DIZAYGN, une expérience qui a été déterminante pour mon parcours professionnel.
         </div>
-        <a class="report-link" href="https://1drv.ms/b/s!ArTH9M77REB3mdcp1IVPcSyf7wFtvQ?e=nOpx1Y" target="_blank">Voir le rapport de stage</a>
-        <a class="report-link" href="#" >Voir mon Tableau de synthèse des réalisations professionnelles  </a>
+        <a class="report-link" href="https://drive.google.com/file/d/1lRYATgEY3AKEgIBRNEYibJ3LMPIJZQAq/view?usp=sharing" target="_blank">Voir le rapport de stage Disaygn</a>
+        <a className="report-link" href="https://drive.google.com/file/d/1hQfj_98ECUTZkBXbvddGyJpAD3MleF-w/view?usp=sharing">Voir le rapport de mission FEDHUBS</a>
+        <a class="report-link" href="https://drive.google.com/file/d/1JhLVcT2q8ecdtYJJA-8j6MLe3bLx1IXS/view?usp=sharing" target="_blank">Voir le Tableau de synthèse des réalisations professionnelles  </a>
     </div>
       <div className='etablissement'>
-        <iframe
-          // ecole nationnale de cpommerce
+      <iframe
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2172.138715350368!2d2.3176629113888154!3d48.89710027121785!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66f00a0e11a9d%3A0x82ceb7280013e727!2s%C3%89cole%20Nationale%20de%20Commerce%20-%20E.N.C!5e1!3m2!1sfr!2sfr!4v1694627603748!5m2!1sfr!2sfr"
         width="600"
         height="450"

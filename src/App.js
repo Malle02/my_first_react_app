@@ -2,9 +2,10 @@ import React from "react";
 // import { BrowserRouter, Route, Routes } from "react-router-dom";
 import {  Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
-import Bts_sio from "./pages/Bts_sio";
+import Btssio from "./pages/Bts_sio";
 import Contact from "./pages/Contact";
-import Navigation from "./componants/Navigation";
+import VeillesTecno from "./pages/VeilleTechnologique";
+
 
 
 
@@ -16,8 +17,10 @@ const App = () => {
   
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/bts_sio" element={<Bts_sio />} />
+        <Route path="/bts_sio" element={<Btssio />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/veilstecno" element={<VeillesTecno />} />
+       
       </Routes>
 
     

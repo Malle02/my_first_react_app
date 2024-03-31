@@ -1,116 +1,97 @@
-.naviga > .navbar{
- margin-top:-18%;
+.card {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  width: 350px;
+  max-width: 100%; /* Empêche le formulaire de dépasser la largeur de l'écran */
+  margin: auto; /* Centre le formulaire horizontalement */
+  margin-top: 30vh; /* Centrage vertical en utilisant la hauteur de la vue */
+  display: flex;
+  flex-direction: column;
+  
 }
 
+.title {
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+  
+}
 
+.form {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
 
-.card {
-    background-color: #fff;
-    border-radius: 10px;
-    padding: 20px;
-    width: 350px;
-    display: flex;
-    margin-top: 17%;
-    margin-bottom: 9%;
-    margin-left: 30vw;
-    flex-direction: column;
-   
-  }
-  
-  .title {
-    font-size: 24px;
-    font-weight: 600;
-    text-align: center;
-  }
-  
-  .form {
-    margin-top: 20px;
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .group {
-    position: relative;
-  }
-  
-  .form .group label {
-    font-size: 14px;
-    color: rgb(99, 102, 102);
-    position: absolute;
-    top: -10px;
-    left: 10px;
-    background-color: #fff;
-    transition: all .3s ease;
-  }
-  
-  .form .group input,
-  .form .group textarea {
-    padding: 10px;
-    border-radius: 5px;
-    border: 1px solid rgba(0, 0, 0, 0.2);
-    margin-bottom: 20px;
-    outline: 0;
-    width: 100%;
-    background-color: transparent;
-  }
-  
-  .form .group input:placeholder-shown+ label, .form .group textarea:placeholder-shown +label {
-    top: 10px;
-    background-color: transparent;
-  }
-  
-  .form .group input:focus,
-  .form .group textarea:focus {
-    border-color: #3366cc;
-  }
-  
-  .form .group input:focus+ label, .form .group textarea:focus +label {
-    top: -10px;
-    left: 10px;
-    background-color: #fff;
-    color: #3366cc;
-    font-weight: 600;
-    font-size: 14px;
-  }
-  
-  .form .group textarea {
-    resize: none;
-    height: 100px;
-  }
-  
-  .form button {
-    background-color: rgb(191, 203, 208);
-    color: black;
-    border: none;
-    border-radius: 5px;
-    padding: 10px;
-    font-size: 16px;
-    cursor: pointer;
-    transition: all 0.3s ease;
-  }
-  
-  /* .form button:hover {
-    background-color: #27408b;
-  } */
-  
-  @media only screen and (max-width:767px)
-  {
-    .card {
-      margin-left: 9%;
-      margin-top: 25vw;
-      margin-bottom: 0;
+}
+
+.group {
+  position: relative;
+}
+
+.form .group label {
+  font-size: 14px;
+  color: rgb(99, 102, 102);
+  position: absolute;
+  top: -10px;
+  left: 10px;
+  background-color: #fff;
+  transition: all .3s ease;
+}
+
+.form .group input,
+.form .group textarea {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+  outline: 0;
+  width: 100%;
+  background-color: transparent;
+}
+
+.form .group input:placeholder-shown+ label,
+.form .group textarea:placeholder-shown +label {
+  top: 10px;
+  background-color: transparent;
+}
+
+.form .group input:focus,
+.form .group textarea:focus {
+  border-color: #3366cc;
+}
+
+.form .group input:focus+ label,
+.form .group textarea:focus +label {
+  top: -10px;
+  left: 10px;
+  background-color: #fff;
+  color: #3366cc;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.form .group textarea {
+  resize: none;
+  height: 100px;
+}
+
+.form button {
+  background-color: rgb(191, 203, 208);
+  color: black;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* Media query pour les petits écrans */
+@media screen and (max-width: 767px) {
+  .card {
+      width: 90%; /* Ajuste la largeur du formulaire pour les petits écrans */
+      margin-top: 5vh; /* Ajuste le centrage vertical pour les petits écrans */
+      margin-top: 30vh;
     }
-
-    .naviga > .navbar{
-      margin-top:-22%;
-     }
-
-  
-  }
-
-  @media screen and (min-width:1536px)
-  {
-    .card{
-      margin-left: 38vw;
-    }
-  }
+}

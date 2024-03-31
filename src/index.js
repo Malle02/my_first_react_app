@@ -6,6 +6,7 @@ import './style/style_parcours_pro.css';
 import './style/style_projet.css';
 import './style/style_footer.css';
 import './style/style_bts_sio.css';
+import './style/style_certification.css';
 import './App.css';
 
 

@@ -43,7 +43,7 @@ const Footer = () => {
     
       </ul>
       <p> <a style={{color:'#201e30'}} href="mailto:malle.traore02.pro@gmail.com">malle.traore02.pro@gmail.com</a></p> 
-      
+        <p> <a style={{color:'#201e30'}} href="/contact" >Formulaire de contact </a></p>
       <p>&copy; 2023 TRAORE-MALLE. Tous droits réservés.</p>
     </footer>
   );
