@@ -1,24 +1,37 @@
 {
   "files": {
-    "main.css": "/static/css/main.ce63f3a0.css",
-    "main.js": "/static/js/main.c3ec79be.js",
+    "main.css": "/static/css/main.e219edd4.css",
+    "main.js": "/static/js/main.d01da52c.js",
+    "static/media/article5.png": "/static/media/article5.897b45ba18e254d0fe58.png",
+    "static/media/article2.jpg": "/static/media/article2.dd7ea73e81be85fd77e7.jpg",
     "static/media/portfolio_class.png": "/static/media/portfolio_class.9544cebeede02bbf9cbd.png",
     "static/media/Zoo.png": "/static/media/Zoo.1bb9afd7d075e8e1762a.png",
     "static/media/hiky_store.png": "/static/media/hiky_store.6db63e4439a705290f9a.png",
     "static/media/Photo pro.png": "/static/media/Photo pro.f30f0be77219ab29ca87.png",
+    "static/media/cinemas.png": "/static/media/cinemas.ca18c9c868319d820c95.png",
+    "static/media/quis.png": "/static/media/quis.da9ea5591f4a2c146393.png",
     "static/media/cv.png": "/static/media/cv.cd016427a92e6a5507e4.png",
+    "static/media/portfolio.png": "/static/media/portfolio.f08cce5846c33635f054.png",
     "static/media/bts.jpg": "/static/media/bts.f754ef9f49694441cb31.jpg",
     "static/media/dvd_c.png": "/static/media/dvd_c.5b3be485e618be0cfd8f.png",
+    "static/media/banq.png": "/static/media/banq.4926510dbb2b4a9263ca.png",
     "static/media/facture_js.png": "/static/media/facture_js.a6eb4a2f126bff4bab55.png",
+    "static/media/article1.webp": "/static/media/article1.34869e062c0241d545af.webp",
     "static/media/projet_interagire_avec_la_bd_ajout_calcule_sup_c.png": "/static/media/projet_interagire_avec_la_bd_ajout_calcule_sup_c.b9bb5a92055ed4281776.png",
+    "static/media/article4.jpg": "/static/media/article4.25feab26a4326c15d4d4.jpg",
     "static/media/gestion_des_salarier.png": "/static/media/gestion_des_salarier.41e684612e7069911575.png",
     "static/media/tp_connection_requette multiple_a_la_bd.png": "/static/media/tp_connection_requette multiple_a_la_bd.40708b21f5c70670664e.png",
+    "static/media/ia4.jpg": "/static/media/ia4.474ae36ccb6cceacc810.jpg",
+    "static/media/avenir.jpg": "/static/media/avenir.3d2fce9a43852f3f9da0.jpg",
+    "static/media/article3.jpg": "/static/media/article3.61739f39ed38b461c938.jpg",
+    "static/media/anssi.png": "/static/media/anssi.b188ff9749525c5d0c95.png",
+    "static/media/artcile6.avif": "/static/media/artcile6.4e3923878d7d32afefdf.avif",
     "index.html": "/index.html",
-    "main.ce63f3a0.css.map": "/static/css/main.ce63f3a0.css.map",
-    "main.c3ec79be.js.map": "/static/js/main.c3ec79be.js.map"
+    "main.e219edd4.css.map": "/static/css/main.e219edd4.css.map",
+    "main.d01da52c.js.map": "/static/js/main.d01da52c.js.map"
   },
   "entrypoints": [
-    "static/css/main.ce63f3a0.css",
-    "static/js/main.c3ec79be.js"
+    "static/css/main.e219edd4.css",
+    "static/js/main.d01da52c.js"
   ]
 }
