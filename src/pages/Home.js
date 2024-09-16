@@ -43,7 +43,7 @@ const blocks = [
     content: (
       <div>
         <p>
-          Actuellement en deuxième année de mon BTS SIO, je continue
+          Actuellement en licence proféssionel projet web et mobile, je continue
           d'approfondir mes compétences en informatique et en gestion des
           systèmes d'information.
         </p>
@@ -176,10 +176,10 @@ const Home = () => {
         <strong>Développement Front-End:</strong> Je jongle avec Javascript (React, Vue), HTML et CSS pour donner vie aux interfaces.
       </li>
       <li>
-        <strong>Développement Back-End:</strong> Je navigue aisément entre Python, C#, Java, Mysql, Nodejs et PHP (LARAVEL)  pour créer des fonctionnalités puissantes.
+        <strong>Développement Back-End:</strong> Je navigue aisément entre Python(Django), C#, .NET Java, Mysql, Nodejs et PHP (LARAVEL)  pour créer des fonctionnalités puissantes.
       </li>
       <li>
-        <strong>CMS Expertise:</strong> J'ai travaillé avec Shopify, WordPress et Elementor Pro pour créer des expériences web exceptionnelles.
+        <strong>CMS Expertise:</strong> J'ai travaillé avec Shopify et WordPress pour créer des expériences web exceptionnelles.
       </li>
       <li>
         <strong>Réseau et Sécurité:</strong> Je configure des postes de travail, administre des services comme DHCP, VPN et DFS, tout en maintenant une sécurité de pointe.
@@ -190,6 +190,9 @@ const Home = () => {
   <section>
     <h3 data-aos="zoom-in-right">💼 Expériences:</h3>
     <ul>
+      <li>
+        <strong>Stage chez FEDHUBS (janvier 2024 - mars 2024):</strong> J'ai contribué au développement d'API avec LARAVEL, en collaboration étroite avec une équipe dynamique.
+      </li>
       <li>
         <strong>Stage chez DIZAYGN (mai 2023 - juillet 2023):</strong> J'ai contribué au développement de sites Web sans code, en collaboration étroite avec une équipe dynamique.
       </li>
@@ -273,13 +276,15 @@ const Home = () => {
         <hr />
         
         <div className='imageP'>
-      <div className='PimgContainer'>
-        <a href="http://malletd.epizy.com/ppe_zoo/index.php">
-          <img className='Pimg' src={Zoo} alt="Projet Gestion du site d'un ZOO en PHP" />
+    
+          
+          <div className='PimgContainer'>
+        <a href="https://movies-api-website.netlify.app">
+          <img className='Pimg' src={cinema} alt="Travaux pratiques VUEjs  portant sur les manipulations de requêtes API de cinéma, l'objectif est d'afficher mes tendances dans le monde du cinéma." />
             </a>
-            <h6>Language PHP</h6>
-        <p>Projet de gestion du site d'un zoo, réalisé en PHP en collaboration avec un camarade.</p>
-      </div>
+            <h6>Language VUEjs</h6>
+        <p>Travaux pratiques VUEjs  portant sur les manipulations de requêtes API de cinéma, l'objectif est d'afficher mes tendances dans le monde du cinéma.</p>
+          </div>
 
       <div className='PimgContainer'>
         <a href="https://github.com/Malle02/projet_location_DVD">
@@ -296,13 +301,7 @@ const Home = () => {
         <p>Travaux pratiques en JAVA sur la POO, la gestion des comptes bancaires.</p>
       </div>
           
-          <div className='PimgContainer'>
-        <a href="https://github.com/Malle02/Mission2_cinema_API.git">
-          <img className='Pimg' src={cinema} alt="Travaux pratiques VUEjs  portant sur les manipulations de requêtes API de cinéma, l'objectif est d'afficher mes tendances dans le monde du cinéma." />
-            </a>
-            <h6>Language VUEjs</h6>
-        <p>Travaux pratiques VUEjs  portant sur les manipulations de requêtes API de cinéma, l'objectif est d'afficher mes tendances dans le monde du cinéma.</p>
-          </div>
+         
           
           <div className='PimgContainer'>
         <a href="https://github.com/Malle02/PPE_QUIZ.git">
@@ -327,13 +326,7 @@ const Home = () => {
         <p>Site web e-commerce HIKYSTORE réalisé en groupe sur Shopify pendant mon stage chez Disaygn.</p>
       </div>
 
-      <div className='PimgContainer'>
-        <a href="http://gestiondessalarier.great-site.net/">
-          <img  className='Pimg' src={gestio_Sala} alt="Site web de gestion des salariés d'une entreprise" />
-            </a>
-            <h6>Language PHP JS</h6>
-        <p>Site web de gestion des salariés d'une entreprise réalisé en PHP et JavaScript.</p>
-          </div>
+
           
           
       <div className='PimgContainer'>
@@ -342,7 +335,22 @@ const Home = () => {
             </a>
             <h6>HTML CSS JS </h6>
         <p>Premier portfolio créé à partir de HTML et CSS et Javascript, enferment tout mes TP.</p>
-      </div>
+          </div>
+          
+          <div className='PimgContainer'>
+        <a href="https://github.com/Malle02/ppe_zoo">
+          <img className='Pimg' src={Zoo} alt="Projet Gestion du site d'un ZOO en PHP" />
+            </a>
+            <h6>Language PHP</h6>
+        <p>Projet de gestion du site d'un zoo, réalisé en PHP en collaboration avec un camarade.</p>
+          </div>
+          <div className='PimgContainer'>
+        <a href="https://github.com/Malle02/Gestion-des-Salarier">
+          <img  className='Pimg' src={gestio_Sala} alt="Site web de gestion des salariés d'une entreprise" />
+            </a>
+            <h6>Language PHP JS</h6>
+        <p>Site web de gestion des salariés d'une entreprise réalisé en PHP et JavaScript.</p>
+          </div>
 
       <div className='PimgContainer'>
         <a href="https://github.com/Malle02/Training_Update">
