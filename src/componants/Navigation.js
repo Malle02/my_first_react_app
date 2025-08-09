@@ -51,7 +51,7 @@ const Navigation = () => {
 
                 </li>
                 <li  className='navbar_item '>
-                    <a href="/veilstecno" className="navbar_link slideIndown-4">Veille Techno</a>
+                    <a href="/licence" className="navbar_link slideIndown-4">Licence pro</a>
 
                 </li>
                 

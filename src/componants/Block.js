@@ -48,9 +48,9 @@ const Block = ({ index, title, content, expandedIndex, setExpandedIndex }) => {
 
   const handleArrowClick = () => {
     if (isExpanded) {
-      setExpandedIndex(null); // Fermer le bloc actuellement ouvert
+      setExpandedIndex(null); 
     } else {
-      setExpandedIndex(index); // Ouvrir ce bloc
+      setExpandedIndex(index);
     }
   };
 

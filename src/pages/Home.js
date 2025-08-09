@@ -5,10 +5,8 @@ import cv from '../image/projet/cv.png';
 import dvd from '../image/projet/dvd_c.png';
 import facture_js from '../image/projet/facture_js.png';
 import gestio_Sala from '../image/projet/gestion_des_salarier.png';
-import HIKY from '../image/projet/hiky_store.png';
 import mansa from '../image/projet/portfolio_class.png';
 import c_sharp_Updates from '../image/projet/projet_interagire_avec_la_bd_ajout_calcule_sup_c.png';
-import Td_php from '../image/projet/tp_connection_requette multiple_a_la_bd.png';
 import Zoo from '../image/projet/Zoo.png';
 import MaPhoto from '../image/Photo pro.png';
 import quiz from '../image/projet/quis.png';
@@ -19,6 +17,19 @@ import cisco from '../image/certif/cisco.png';
 import Rgpd from '../image/certif/cnil.png';
 import anssi from '../image/certif/anssi.png';
 
+import paint from '../video/Paint.png';
+import paintDemo from '../video/paint.mp4';
+import space from '../video/Space.png';
+import spaceDemo from '../video/Space.mp4';
+import Rpg from '../video/RPGtex.png';
+import RpgDemo from '../video/RPG.mp4';
+import Egg from '../video/Egg.png';
+import EggDemo from '../video/Egg.mp4';
+import eboutique from '../video/mandingchic.png';
+import Rave from '../video/Rave.png';
+import GamePOINT from '../video/Gamepoint.png';
+import GamePOINTDemo from '../video/Game.mp4';
+import Itunes from '../video/Itunes.jpeg';
 
 
 
@@ -39,29 +50,53 @@ import '../style/style_bac1.css';
   
 const blocks = [
   {
+    title: 'LICENCE PRO - PROJET WEB ET MOBILE',
+    content: (
+      <div>
+        <p>
+          Actuellement en licence professionnelle Métiers de l'informatique : applications web - 
+          Parcours Projet Web et Mobile à Sorbonne Université, je spécialise mes compétences 
+          dans le développement web et mobile.
+        </p>
+        <p>
+          Cette formation en alternance me permet d'approfondir mes connaissances en 
+          développement Full Stack, gestion de projet agile, UI/UX Design, et sécurité 
+          des applications web. J'acquiers une expertise dans les frameworks modernes 
+          et les CMS les plus populaires.
+        </p>
+        <p>
+          Grâce aux projets en entreprise, j'applique concrètement mes compétences sur 
+          des missions variées : développement d'applications web/mobile, réalisation 
+          d'ERP, migration de portails, et outils métiers spécialisés.
+        </p>
+      </div>
+    ),
+    initiallyExpanded: true,
+  },
+  {
     title: 'BTS SIO - OPTION SLAM',
     content: (
       <div>
         <p>
-          Actuellement en licence proféssionel projet web et mobile, je continue
-          d'approfondir mes compétences en informatique et en gestion des
-          systèmes d'information.
+          Diplômé du BTS SIO option SLAM (Solutions Logicielles et Applications Métiers), 
+          j'ai développé une expertise solide en développement d'applications et en 
+          gestion des systèmes d'information.
         </p>
         <p>
-          J'ai développé une expertise plus avancée en programmation, en
-          administration de bases de données, en virtualisation, et en gestion
-          de projet.
+          J'ai acquis des compétences avancées en programmation orientée objet, 
+          en conception et administration de bases de données, en développement web, 
+          et en gestion de projet informatique.
         </p>
         <p>
-          J'ai également eu l'occasion de travailler pendant mes stages sur des
-          projets concrets, ce qui m'a permis d'appliquer mes connaissances en
-          situation réelle.
+          Les stages effectués m'ont permis de mettre en pratique mes connaissances 
+          sur des projets concrets, renforçant ainsi mon expérience professionnelle 
+          et ma capacité d'adaptation aux besoins des entreprises.
         </p>
       </div>
     ),
   },
   {
-    title: 'BTS SIO',
+    title: 'BTS SIO - PREMIÈRE ANNÉE',
     content: (
       <div>
         <p>
@@ -80,7 +115,6 @@ const blocks = [
         </p>
       </div>
     ),
-    initiallyExpanded: true,
   },
   {
     title: 'BAC STMG',
@@ -164,62 +198,68 @@ const Home = () => {
         <section>
             <h4 data-aos="fade-up" >Qui suis-je ?</h4>
             <hr />
-    <p className='tilte_span'>
-      Je suis Mallé TRAORE, un passionné de technologie avec une variété de compétences impressionnantes.
+   <p className='tilte_span'>
+      Je suis Mallé TRAORE, développeur web titulaire d'une Licence Pro Projets Web et Mobile (Bac+3), passionné par le développement logiciel et les technologies back-end.
     </p>
   </section>
 
   <section>
-    <h3 data-aos="zoom-in-right">🚀 Compétences:</h3>
+    <h3 data-aos="zoom-in-right">Compétences:</h3>
     <ul>
       <li>
         <strong>Développement Front-End:</strong> Je jongle avec Javascript (React, Vue), HTML et CSS pour donner vie aux interfaces.
       </li>
       <li>
-        <strong>Développement Back-End:</strong> Je navigue aisément entre Python(Django), C#, .NET Java, Mysql, Nodejs et PHP (LARAVEL)  pour créer des fonctionnalités puissantes.
+        <strong>Développement Back-End:</strong> Je maîtrise C# (.NET, WPF), Python (Django), PHP (Laravel, Symfony), Java (Swing, OpenGL), Node.js (Express) et les bases de données MySQL, SQL, MongoDB pour créer des solutions robustes et sécurisées.
       </li>
       <li>
         <strong>CMS Expertise:</strong> J'ai travaillé avec Shopify et WordPress pour créer des expériences web exceptionnelles.
       </li>
       <li>
-        <strong>Réseau et Sécurité:</strong> Je configure des postes de travail, administre des services comme DHCP, VPN et DFS, tout en maintenant une sécurité de pointe.
+        <strong>Administration réseau et cybersécurité:</strong> Je configure DHCP, Active Directory, VPN, DFS et applique les bonnes pratiques de sécurité, notamment la protection des données et la prévention des injections SQL.
       </li>
     </ul>
   </section>
 
   <section>
-    <h3 data-aos="zoom-in-right">💼 Expériences:</h3>
+    <h3 data-aos="zoom-in-right">Expériences:</h3>
     <ul>
       <li>
-        <strong>Stage chez FEDHUBS (janvier 2024 - mars 2024):</strong> J'ai contribué au développement d'API avec LARAVEL, en collaboration étroite avec une équipe dynamique.
+        <strong>Stage développeur Back-End/Logiciel chez PIXECURITY (février 2025 - septembre 2025):</strong> Développement d'API sécurisées avec .NET, gestion PostgreSQL et implémentation de bonnes pratiques en sécurité.
       </li>
       <li>
-        <strong>Stage chez DIZAYGN (mai 2023 - juillet 2023):</strong> J'ai contribué au développement de sites Web sans code, en collaboration étroite avec une équipe dynamique.
+        <strong>Stage développeur Back-end chez FEDHUBS (janvier 2024 - mars 2024):</strong> Développement d'API RESTful pour réservations avec paiements partagés, optimisation de bases de données et tests unitaires.
       </li>
       <li>
-        <strong>Bénévolat aux Restos du cœur Paris 19 (depuis janvier 2019):</strong> J'aide à distribuer plus de 500 repas par semaine pour soutenir les personnes dans le besoin.
+        <strong>Stage développeur Web chez DIZAYGN (mai 2023 - juillet 2023):</strong> Développement de sites e-commerce avec Shopify, WordPress, intégration responsive et analyse des besoins clients.
+      </li>
+      <li>
+        <strong>Bénévolat aux Restos du cœur Paris 19 (depuis janvier 2019):</strong> Distribution de plus de 500 repas par semaine pour soutenir les personnes dans le besoin.
       </li>
     </ul>
   </section>
 
   <section>
-    <h3 data-aos="zoom-in-right">📚 Formation:</h3>
+    <h3 data-aos="zoom-in-right">Formation:</h3>
     <ul>
       <li>
-        <strong>BTS SIO Services informatiques aux organisations (2022 - 2024):</strong> Actuellement à l'ECOLE NATIONALE DE COMMERCE, je me spécialise en Solution logicielles et applications métiers (SLAM).
+        <strong>Licence professionnelle Métiers de l'informatique : applications web - Parcours Projet Web et Mobile (2024 - 2025):</strong> Formation en alternance à Sorbonne Université spécialisée en développement Full Stack, UI/UX Design, sécurité web et gestion agile.
       </li>
       <li>
-        <strong>Certifications:</strong> Je me forme en cybersécurité et en protection des données personnelles, montrant mon engagement pour un environnement numérique sûr.
+        <strong>BTS SIO Services informatiques aux organisations (2022 - 2024):</strong> Diplômé de l'École Nationale de Commerce, spécialisation SLAM (Solutions Logicielles et Applications Métiers).
+      </li>
+      <li>
+        <strong>Certifications:</strong> MOOC Cybersécurité ANSSI, Introduction to Cybersecurity Cisco, Formation RGPD CNIL - expertise en sécurité et protection des données.
       </li>
     </ul>
   </section>
 
   <section>
     <p>
-      🤝 Pour moi, la technologie est plus qu'une passion, c'est un moyen d'impact. Je suis ravi de mettre mes compétences au service de solutions innovantes.
+      Pour moi, la technologie est plus qu'une passion, c'est un moyen d'impact. Je suis ravi de mettre mes compétences au service de solutions innovantes.
     </p>
     <p>
-      Je vous laisse explorer mon portfolio. Si vous partagez ma passion pour la technologie et l'innovation, discutons-en !
+      Disponible à partir de septembre 2025, je recherche une première opportunité pour mettre en pratique mes compétences dans un environnement stimulant. Discutons-en !
     </p>
   </section>
 </div>
@@ -227,7 +267,7 @@ const Home = () => {
       </div>
       <div className='bouton'>
         <button data-aos="fade-down-left" className='btn1'><a  href="#education"  >Mon parcours éducatif</a></button>
-        <button data-aos="fade-down-right" className='btn2'><a  href="#parcours">Mon parcours proféssionnels</a></button>
+        <button data-aos="fade-down-right" className='btn2'><a  href="#parcours">Mon parcours professionnel</a></button>
         
       </div>
       
@@ -254,12 +294,12 @@ const Home = () => {
       <section id="parcours" className="portfolio-section">
         <h4   data-aos="fade-up">Parcours Professionnel</h4>
         <hr />
-    <div data-aos="flip-left" className="experience">
-        <h3>Bénévole au Restos du Cœur</h3>
-        <p><span class="date">Janvier 2021 - Actuellement</span><br/>
-            J'ai travaillé en tant que bénévole au Restos du Cœur, participant à diverses activités caritatives pour aider les personnes dans le besoin.</p>
+        <div data-aos="flip-left" class="experience" id='experience'>
+        <h3>Stage Développeur Back-End/Logiciel chez PIXECURITY </h3>
+        <p><span class="date">février 2025 - septembre 2025</span> <br />
+            Développement d'API sécurisées avec .NET, gestion PostgreSQL et implémentation de bonnes pratiques en sécurité.</p>
     </div>
-    <div data-aos="flip-left" class="experience" id='experience'>
+        <div data-aos="flip-left" class="experience" id='experience'>
         <h3>Stage Développeur No Code chez Disaygn</h3>
         <p><span class="date">Mai 2023 - Juillet 2023</span> <br />
             J'ai effectué un stage en tant que développeur No Code chez Disaygn, où j'ai contribué à la création d'applications sans nécessiter de codage traditionnel.</p>
@@ -269,6 +309,12 @@ const Home = () => {
         <p><span class="date">Janvier 2024 - Mars 2024</span> <br />
             J'ai effectué un stage en tant que développeur Back-end chez FEDHUBS, où j'ai contribué activement au développement d'API et à la réalisation de tests unitaires pour l'application. Collaboration étroite avec l'équipe front-end pour assurer une intégration fluide des fonctionnalité.</p>
     </div>
+    <div data-aos="flip-left" className="experience">
+        <h3>Bénévole au Restos du Cœur</h3>
+        <p><span class="date">Janvier 2021 - Actuellement</span><br/>
+            J'ai travaillé en tant que bénévole au Restos du Cœur, participant à diverses activités caritatives pour aider les personnes dans le besoin.</p>
+    </div>
+    
       </section>
       <section  id='projet'>
       
@@ -278,6 +324,63 @@ const Home = () => {
         <div className='imageP'>
     
           
+<div className='PimgContainer'>
+        <a href="https://github.com/Malle02/Paint_JavaSwing">
+          <img className='Pimg' src={paint} alt="Paint" />
+            </a>
+            <h6>Langage JAVA</h6>
+        <p>Projet de réalisation d'un logiciel de dessin similaire à Paint en Java Swing, intégrant plusieurs fonctionnalités de dessin : tracé de formes, gestion des couleurs, et outils de modification graphique.<a href={paintDemo}>Demo</a></p>
+          </div>
+
+      <div className='PimgContainer'>
+        <a href="https://github.com/Malle02/Space_Invaders">
+          <img  className='Pimg' src={space} alt="Space" />
+        </a> <h6>Langage JAVA</h6>
+        <p>Jeu Space Invaders développé en OpenGL 2D avec rendu 3D, proposant plusieurs niveaux de difficulté et des ennemis aux capacités variées. Projet disponible sur GitHub. <a href={spaceDemo}>Demo</a></p>
+          </div>
+          <div className='PimgContainer'>
+        <a href="https://github.com/Malle02/Projet_RPG">
+          <img className='Pimg' src={Rpg} alt="RPG" />
+            </a>
+            <h6>Langage JAVA</h6>
+        <p>RPG textuel dans un donjon avec système de classes (sorcier, guerrier, etc.), combats contre des monstres et gestion d'inventaire. Mécaniques de jeu avancées en mode console.<a href={RpgDemo}>Demo</a></p>
+          </div>
+
+      <div className='PimgContainer'>
+        <a href="https://github.com/Malle02/ItunesReactNative">
+          <img  className='Pimg' src={Itunes} alt="Itunes" />
+        </a> <h6>Langage React Native</h6>
+        <p>Application musicale iTunes intégrant l'API officielle pour écouter des extraits, gérer les favoris, rechercher des albums et découvrir de nouveaux artistes.</p>
+          </div>
+          <div className='PimgContainer'>
+        <a href="https://github.com/Malle02/RaveStudioMall-">
+              <img  className='Pimg' src={Rave} alt="Rave." />
+            </a>
+            <h6>Langage React Native</h6>
+        <p>Projet innovant utilisant une API Python basée sur l'IA pour transformer des sons en sonorités d'instruments (guitare, jazz, tambour). Interface mobile intuitive pour l'expérimentation musicale.</p>
+          </div>
+
+      <div className='PimgContainer'>
+        <a href="https://github.com/Malle02/GamePoint">
+          <img  className='Pimg' src={GamePOINT} alt="GamePoint" />
+        </a> <h6>Langage React Native/Symfony</h6>
+        <p>Application de fidélité collaborative avec système de points, scan de QR codes, backend Symfony/MySQL et interface mobile React Native. Gestion complète des récompenses utilisateurs.<a href={GamePOINTDemo}>Demo</a></p>
+          </div>
+          <div className='PimgContainer'>
+        <a href="https://github.com/Malle02/Egg-n_Tea_Timer">
+          <img className='Pimg' src={Egg} alt="Egg and tea" />
+            </a>
+            <h6>Langage SVELTE</h6>
+        <p>Application web collaborative de chronomètres quotidiens développée en Svelte, spécialisée dans la préparation du thé avec minuteurs personnalisables et notifications.<a href="https://egg-n-tea.netlify.app/">Demo</a></p>
+          </div>
+
+      <div className='PimgContainer'>
+        <a href="https://github.com/Malle02/eboutique">
+          <img  className='Pimg' src={eboutique} alt="Eboutique" />
+        </a> <h6>Langage Symfony</h6>
+        <p>E-boutique complète développée en Symfony avec base de données MySQL, intégrant gestion des produits, panier d'achat, système de paiement et interface d'administration.<a href="https://traore2.alwaysdata.net/boutique/">Demo</a></p>
+          </div>
+
           <div className='PimgContainer'>
         <a href="https://movies-api-website.netlify.app">
           <img className='Pimg' src={cinema} alt="Travaux pratiques VUEjs  portant sur les manipulations de requêtes API de cinéma, l'objectif est d'afficher mes tendances dans le monde du cinéma." />
@@ -317,17 +420,7 @@ const Home = () => {
         </a> <h6>Language Javascript</h6>
         <p>Application de facturation réalisée en JavaScript capable de générer des factures automatiquement.</p>
           </div>
-          
-
-      <div className='PimgContainer'>
-        <a href="https://hikystore.com/">
-          <img  className='Pimg' src={HIKY} alt="Site web e-commerce HIKY sur Shopify" />
-        </a> <h6>Language Shopify</h6>
-        <p>Site web e-commerce HIKYSTORE réalisé en groupe sur Shopify pendant mon stage chez Disaygn.</p>
-      </div>
-
-
-          
+                    
           
       <div className='PimgContainer'>
         <a href="https://malle02.github.io/iframe.ML/">
@@ -367,15 +460,6 @@ const Home = () => {
             <h6>Languages REACjs</h6>
         <p>Portfolio</p>
       </div>
-
-      <div className='PimgContainer'>
-        <a href="http://malletrsiteweb02.epizy.com/">
-          <img className='Pimg' src={Td_php} alt="Travaux pratiques PHP sur les manipulations de requêtes SQL" />
-            </a>
-            <h6>Language PHP</h6>
-        <p>Travaux pratiques en PHP sur les manipulations de requêtes SQL avec une base de données.</p>
-      </div>
-     
     
   
    
@@ -445,17 +529,20 @@ const Home = () => {
 </section>
 
 
-      <div  class="section-title" 
+    <div  class="section-title" 
         ><h4  data-aos="flip-left" style={{color:"black"}}>Notes de Synthèse</h4>
      <hr />  </div> 
       <div  class="section-notes">
        
         <div  class="summary" >
-            Au terme de ma première année en classe de BTS SIO1 Slam au lycée PARC DE VILGENIS, j'ai eu l'opportunité exceptionnelle d'effectuer un stage au sein de DIZAYGN, une expérience qui a été déterminante pour mon parcours professionnel.
+            Diplômé du BTS SIO option SLAM à l'École Nationale de Commerce, je poursuis actuellement ma formation en Licence professionnelle Métiers de l'informatique : applications web - Parcours Projet Web et Mobile à Sorbonne Université. Mon parcours académique s'enrichit d'expériences professionnelles variées qui ont forgé mon expertise en développement web et back-end. Actuellement en stage chez PIXECURITY, je développe mes compétences en sécurité informatique et développement d'API.
         </div>
-        <a class="report-link" href="https://drive.google.com/file/d/1lRYATgEY3AKEgIBRNEYibJ3LMPIJZQAq/view?usp=sharing" target="_blank">Voir le rapport de stage Disaygn</a>
-        <a className="report-link" href="https://drive.google.com/file/d/1hQfj_98ECUTZkBXbvddGyJpAD3MleF-w/view?usp=sharing">Voir le rapport de mission FEDHUBS</a>
-        <a class="report-link" href="https://drive.google.com/file/d/1JhLVcT2q8ecdtYJJA-8j6MLe3bLx1IXS/view?usp=sharing" target="_blank">Voir le Tableau de synthèse des réalisations professionnelles  </a>
+        <a class="report-link" href="https://drive.google.com/file/d/1lRYATgEY3AKEgIBRNEYibJ3LMPIJZQAq/view?usp=sharing" target="_blank">Voir le rapport de stage DIZAYGN</a>
+        <a className="report-link" href="https://drive.google.com/file/d/1hQfj_98ECUTZkBXbvddGyJpAD3MleF-w/view?usp=sharing" target="_blank">Voir le rapport de mission FEDHUBS</a>
+        <a class="report-link" href="https://drive.google.com/file/d/1JhLVcT2q8ecdtYJJA-8j6MLe3bLx1IXS/view?usp=sharing" target="_blank">Voir le Tableau de synthèse des réalisations professionnelles</a>
+        <div class="note-info" style={{marginTop: "15px", fontStyle: "italic", color: "#666"}}>
+            Mémoire de licence professionnelle en cours de rédaction - Stage PIXECURITY (février - septembre 2025)
+        </div>
     </div>
       <div className='etablissement'>
       <iframe

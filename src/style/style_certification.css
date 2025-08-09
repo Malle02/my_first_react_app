@@ -7,7 +7,7 @@
 
 .certifications-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Utilisation de la fonction auto-fit pour rendre les colonnes adaptables */
+    grid-template-columns: repeat(4, 1fr); /* Utilisation de la fonction auto-fit pour rendre les colonnes adaptables */
     gap: 20px;
 }
 
